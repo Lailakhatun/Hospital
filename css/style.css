@@ -1,0 +1,953 @@
+* {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+}
+
+ul,
+ol {
+        list-style-type: none;
+}
+
+a {
+        text-decoration: none;
+
+        display: block;
+}
+
+img {
+        vertical-align: middle;
+}
+
+.container {
+        width: 970px;
+        margin: 0 auto;
+
+
+}
+
+.clr {
+        clear: both;
+}
+section{
+        scroll-behavior: smooth;
+}
+
+@font-face {
+        font-family: MyriadPro-Light;
+        src: url(../myriad-pro/MyriadPro-Light.woff);
+}
+
+@font-face {
+        font-family: MYRIADPRO-REGULAR;
+        src: url(../myriad-pro/MYRIADPRO-REGULAR.woff);
+}
+
+@font-face {
+        font-family: MYRIADPRO-SEMIBOLD;
+        src: url(../myriad-pro/MYRIADPRO-SEMIBOLD.woff);
+}
+
+@font-face {
+        font-family: MYRIADPRO-BOLD;
+        src: url(../myriad-pro/MYRIADPRO-BOLD.woff);
+}
+
+
+/*  common css end */
+/* ======================================= 
+        header part start
+========================================== */
+#header-part {
+        background: #fff;
+        height: 117px;
+
+
+}
+
+.logo {
+        width: 90px;
+        float: left;
+        line-height: 117px;
+
+
+}
+
+.head {
+        width: 680px;
+        float: left;
+        line-height: 117px;
+}
+
+.head h2 {
+        color: #3ca2a2;
+        font-size: 26px;
+        font-weight: 700;
+        font-family: 'Open Sans', sans-serif;
+
+}
+
+.phone {
+        width: 200px;
+        float: left;
+        line-height: 117px;
+
+}
+
+.phone span {
+        color: #ca0711;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+}
+
+/* ======================================= 
+        header part end
+========================================== */
+
+/* ======================================= 
+         nav part start
+========================================== */
+#navigation {
+        background: #c30911;
+        height: 50px;
+        position: sticky;
+        top:0;
+        z-index: 1;
+
+
+
+}
+
+.manu-part {
+        width: 850px;
+        float: left;
+        margin-right: 0px;
+
+}
+
+.manu-part ul li {
+        float: left;
+        padding-top: 7px;
+}
+
+.manu-part ul li a {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        margin-right: 30px;
+        text-transform: capitalize;
+        border-radius: 5px;
+		
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+
+.manu-part ul li a:hover {
+        background: #f18d26;
+}
+
+.icon {
+        width: 120px;
+
+        float: left;
+        text-align: right;
+        padding-top: 3px;
+
+
+}
+
+.icon a {
+        color: #be0b11;
+        font-size: 15px;
+        margin-left: 6px;
+        text-align: center;
+        float: left;
+        width: 20px;
+        height: 20px;
+        background: #fff;
+        padding: 5px 5px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        transition: all linear 0.3s;
+        -webkit-transition: all linear 0.3s;
+        -moz-transition: all linear 0.3s;
+        -ms-transition: all linear 0.3s;
+        -o-transition: all linear 0.3s;
+}
+
+.icon a:hover {
+        color: white;
+        background: black;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+
+
+
+/* ======================================= 
+        nav  part end
+========================================== */
+
+
+/* ======================================= 
+        section  part start
+========================================== */
+
+#section-part {
+        background: #dfece6;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        z-index: 1;
+
+}
+
+#section-part::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #dfece6;
+        opacity: 0.60;
+        z-index: -1;
+
+}
+
+.section-text {
+        width: 440px;
+        float: left;
+        padding: 80px 0px;
+
+}
+
+.section-text h2 {
+        color: #215a6d;
+        font-size: 36px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: -8px;
+        font-style: italic;
+}
+
+.section-text h1 {
+        color: #215a6d;
+        font-size: 48px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 10px;
+        font-style: italic;
+}
+
+.section-text p {
+        width: 265px;
+        color: #215a6d;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 35px;
+        line-height: 22px;
+}
+
+.section-text a {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: ;
+        background: #92c7a3;
+        padding: 0 25px;
+        line-height: 45px;
+        display: inline-block;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+}
+
+.image {
+        width: 525px;
+        float: left;
+        padding-top: 35px;
+}
+
+/* ======================================= 
+        section  part end
+========================================== */
+
+/* ======================================= 
+        support part start
+========================================== */
+
+#support-part {
+        background: #fff;
+
+        padding-top: 50px;
+
+        text-align: center;
+        overflow: hidden;
+
+}
+
+.single-part {
+        width: 310px;
+        float: left;
+        margin-right: 20px;
+
+}
+
+.single-part:last-child {
+        margin-right: 0;
+}
+
+.single-part h3 {
+        color: #3ca2a2;
+        font-size: 24px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 20px;
+
+}
+
+.single-part img {
+        margin-bottom: 15px;
+}
+
+.single-part p {
+        color: #3ca2a2;
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 30px;
+        line-height: 20px;
+
+}
+
+.arry {
+        width: 115px;
+        margin: auto;
+        padding-bottom: 90px;
+
+
+}
+
+.arry img {
+        width: 14px;
+
+        float: left;
+        margin-top: 3px;
+}
+
+.arry h6 {
+        width: 95px;
+        float: left;
+        color: #3ca2a2;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 6px;
+}
+
+
+
+/* ======================================= 
+        support  part end
+========================================== */
+
+/* ======================================= 
+        video  part start
+========================================== */
+#video-part {
+        background: #dfece6;
+        padding: 40px 0px;
+
+
+
+}
+
+.main-div {
+        width: 480px;
+        float: left;
+        overflow: hidden;
+        margin-right: 20px;
+}
+
+.notice {
+        border-bottom: 1px solid #fff;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        margin-bottom: 35px;
+}
+
+.notice:hover {
+        border-bottom: 1px solid #ae1010;
+}
+
+.notice h3 {
+        color: #215a6d;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 20px;
+
+}
+
+.con {
+        width: 480px;
+
+
+}
+
+.k-part {
+        width: 430px;
+        height: 45px;
+        float: left;
+        background: #fff;
+        border-bottom: 1px solid #3ca2a2;
+
+
+}
+
+.k-part:nth-child(9) {
+        border-bottom: none !important;
+}
+
+.k-part a {
+        color: #3ca2a2;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 45px;
+        margin-left: 20px;
+
+
+}
+
+.r-part {
+        width: 50px;
+        height: 45px;
+        float: right;
+        background: #ae1010;
+        border-bottom: 1px solid #3ca2a2;
+        line-height: 45px;
+}
+
+.r-part:last-child {
+        border-bottom: none;
+}
+
+.r-part img {
+        font-size: 13px;
+        margin-left: 17px;
+
+}
+
+.view {
+        margin-top: 30px;
+
+
+}
+
+.view img {
+        margin-left: 5px;
+}
+
+.view span {
+        color: #ae1010;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: capitalize;
+        margin-left: 5px;
+}
+
+.wrapper {
+        overflow: hidden;
+}
+
+.feature {
+        width: 470px;
+        float: right;
+        overflow: hidden;
+
+
+
+
+
+}
+
+.m-part {
+        border-bottom: 1px solid #fff;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        margin-bottom: 50px;
+}
+
+.m-part:hover {
+        border-bottom: 1px solid #ae1010;
+}
+
+.m-part h3 {
+        color: #215a6d;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 20px;
+
+}
+
+.n-part {
+        margin-left: 20px;
+}
+
+/* ======================================= 
+        video   part end
+========================================== */
+/* ======================================= 
+          service part start
+========================================== */
+#service-part {
+        background: #fff;
+        padding: 70px 0px;
+}
+
+.medical {
+        width: 300px;
+        float: left;
+        margin-right: 20px;
+}
+
+.medica:last-child {
+        margin-right: 0;
+}
+
+.new {
+        border-bottom: 1px solid #eaeaea;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        margin-bottom: 40px;
+}
+
+.new:hover {
+        border-bottom: 1px solid #ae1010;
+}
+
+.new h2 {
+        color: #215a6d;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 20px;
+}
+
+.p-part {
+        width: 280px;
+
+        border-bottom: 1px solid #eaeaea;
+
+}
+
+.p-part h5 {
+        color: #3ca2a2;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 15px;
+}
+
+.p-part p {
+        color: #215a6d;
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 35px;
+}
+
+.q-part {
+        width: 280px;
+        margin-top: 40px;
+
+
+}
+
+.q-part h5 {
+        color: #3ca2a2;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 15px;
+}
+
+.q-part p {
+        color: #215a6d;
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 45px;
+}
+
+.v-part span {
+        color: #3ca2a2;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: MYRIADPRO-REGULAR;
+        margin-left: 8px;
+}
+
+.medical h2 {
+        color: #215a6d;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 20px;
+
+}
+
+.main-check {
+        width: 190px;
+        margin-bottom: 0px;
+
+
+
+
+}
+
+.check {
+        width: 20px;
+        float: left;
+
+        margin-bottom: 20px;
+
+
+}
+
+.check img {
+        font-size: 13px;
+        margin-top: 2px;
+
+
+}
+
+.lakha {
+        width: 170px;
+        float: right;
+        margin-bottom: 20px;
+
+
+}
+
+.lakha span {
+
+        color: #215a6d;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 10px;
+
+}
+
+.a-part {
+        width: 120px;
+        overflow: hidden;
+        margin-bottom: 70px;
+
+
+
+
+}
+
+.a-part .l {
+        width: 20px;
+        float: left;
+        margin-top: 67px;
+
+
+}
+
+.a-part .p {
+        width: 100px;
+        float: right;
+        margin-top: 67px;
+
+}
+
+.p span {
+        color: #3ca2a2;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: MYRIADPRO-REGULAR;
+        margin-left: 5px;
+
+}
+
+.photo {
+        width: 135px;
+        float: left;
+        margin-right: 10px;
+        overflow: hidden;
+
+
+}
+
+.photo-1 {
+
+        width: 135px;
+        float: right;
+        overflow: hidden;
+
+}
+
+
+.photo:last-child {
+        margin-right: 0;
+}
+
+
+.pic {
+        margin-bottom: 20px;
+        border: 4px solid #dfece6;
+}
+
+.pic img {
+        width: 100%;
+}
+
+
+.woman img {
+        width: 100%;
+}
+
+.woman {
+        border: 4px solid #dfece6;
+        margin-bottom: 48px;
+
+
+}
+
+/* ======================================= 
+          service part end
+========================================== */
+
+/* ======================================= 
+          doctor part start
+========================================== */
+#doctors-part {
+        background: #fff;
+        padding-bottom: 100px;
+
+}
+
+.our-doctor {
+        border-bottom: 1px solid #eaeaea;
+        margin-bottom: 30px;
+        transition: all linear 0.3s;
+        -webkit-transition: all linear 0.3s;
+        -moz-transition: all linear 0.3s;
+        -ms-transition: all linear 0.3s;
+        -o-transition: all linear 0.3s;
+}
+
+.our-doctor:hover {
+        border-bottom: 1px solid #ae1010;
+}
+
+.our-doctor h2 {
+        color: #215a6d;
+        font-size: 28px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        margin-bottom: 15px;
+}
+
+.single-box {
+        width: 300px;
+        float: left;
+        margin-bottom: 0px;
+        margin-right: 35px;
+}
+
+.single-box:last-child {
+        margin-right: 0px;
+}
+
+.single-box img {
+        max-width: 100%;
+        margin-bottom: 18px;
+
+}
+
+.single-box h3 {
+        color: #3ca2a2;
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        margin-bottom: 7px;
+}
+
+.single-box span {
+        color: #878787;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        padding-bottom: 0px;
+
+}
+
+.single-box p {
+        color: #d21621;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        margin-top: 8px;
+}
+
+
+/* ======================================= 
+          doctor part end
+========================================== */
+
+
+/* ======================================= 
+          contact part start
+========================================== */
+#contact-part {
+        background: #222222;
+        margin-bottom: 0px;
+
+}
+
+.h-part {
+        padding-top: 22px;
+        height: 90px;
+}
+
+.hospital {
+        width: 100px;
+        float: left;
+        line-height: 90px;
+        margin-right: 25px;
+
+}
+
+.hospital img {
+        width: 100%;
+}
+
+.text-part {
+        width: 845px;
+        float: left;
+
+}
+
+.text-part h2 {
+        line-height: 90px;
+        color: #3ca2a2;
+        font-size: 26px;
+        font-family: MYRIADPRO-SEMIBOLD;
+        font-weight: 600;
+
+}
+
+.list {
+        margin-top: 50px;
+        padding-bottom: 25px;
+        width: 220px;
+        float: left;
+        margin-right: 30px;
+}
+
+.list:last-child {
+        margin-right: 0px;
+}
+
+
+.list h4 {
+        color: #3ca2a2;
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        margin-bottom: 20px;
+}
+
+.list ul li a {
+        color: #b0c5c1;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        margin-bottom: 20px;
+}
+
+.list ul li i {
+        color: #ae1010;
+        font-size: 14px;
+        margin-right: 2px;
+}
+
+.list ul li .color {
+        color: #fff;
+}
+
+/* ======================================= 
+          contact part end
+========================================== */
+
+/* ======================================= 
+         footer  part start
+========================================== */
+#footer-part {
+        background: #cf0511;
+        height: 45px;
+}
+
+.footer {
+        text-align: center;
+}
+
+.footer h3 {
+        color: #cb8f8e;
+        font-size: 15px;
+        font-family: MYRIADPRO-REGULAR;
+        font-weight: 600;
+        margin-bottom: 0px;
+        line-height: 45px;
+}
+
+/* ======================================= 
+         footer  part end
+========================================== */
+
+
+
+/* ======================================= 
+          part start
+========================================== */
+
+/* ======================================= 
+          part end
+========================================== */
